@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice set 6</title>
+</head>
+<body>
+    <script>
+        function number(num){
+            if(num % 2 == 0){
+                return "even";
+            }else{
+                return "odd";
+            }
+            
+        }
+        // let checker = number(5);
+        //     console.log(number(9));
+
+        function largerNumber(x,y){
+            if(x>y){
+                return`${x} is greater than ${y}.`
+            }else{
+                return`${y} is greater than ${x}.`
+            }
+        }
+
+        // console.log(largerNumber(8,9))
+
+        function Temp(celsius){
+            let covert = (9/5) * celsius + 32; 
+            return covert
+        }
+
+        console.log(Temp(54));
+
+
+
+    </script>
+</body>
+</html>

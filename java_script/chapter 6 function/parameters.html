@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parameter function</title>
+</head>
+<body>
+    <script>
+        function sum(x,y){
+            let s = x+y;
+            return s;
+        }
+        let result = sum(4,5);
+        console.log(result);
+
+
+        function greeting(name = 'Pyaare'){
+            console.log(`Namaste ${name} uncle`)
+        }
+        greeting();
+        
+    </script>
+</body>
+</html>
